@@ -27,11 +27,10 @@ Soy **Analista de Procesos y Datos** con más de **6 años de experiencia**, esp
 
 Aquí puedes ver algunos ejemplos de dashboards y proyectos que he desarrollado:
 
- - [Tablero  Clima Laboral ](https://acortar.link/K4Aiq3 )
  - [Tablero de Ventas ](https://acortar.link/nPEyXJ) - **[Repositorio Github-Proyecto completo](https://github.com/maes12/AnalisisVentasSQLPowerBI)**
+ - [Tablero de Ventas2 ](https://acortar.link/BIndbp) - **[Repositorio Github-Proyecto completo](https://github.com/maes12/Analyst-Sales.git)**
  - [Tablero Logístico ](https://acortar.link/RK8FlY)
 
----
 
 ## 🎯 **¿Por qué Elegirme?**
 
