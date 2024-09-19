@@ -40,7 +40,7 @@ Aquí puedes ver algunos ejemplos de dashboards y proyectos que he desarrollado:
 - ✅ **Automatización**: Mejora la eficiencia de tu equipo con soluciones automatizadas que reducen el trabajo manual.
 - ✅ **Visualización Clara**: Presentación clara y efectiva de datos para una toma de decisiones informada.
 
----
+
 
 ## 📞 **Contacto : +51 933627400**
 
@@ -48,8 +48,12 @@ Si estás buscando una solución eficiente para analizar y automatizar tus datos
 
 - **Correo electrónico:** [m8antonioes@gmail.com](mailto:tuemail@ejemplo.com)
 - **LinkedIn:** [Miguel Espinoza Suarez](www.linkedin.com/in/miguelespinozasuarez)
+## Carta de Presentación: 
 
-  [Descargar Carta de Presentación](https://github.com/usuario/repositorio/blob/main/nombre-del-archivo.pdf)
+ Aquí puedes [descargar la presentación en PDF]([https://github.com/usuario/repositorio/blob/main/presentacion.pdf](https://github.com/maes12/Mespinoza.gith.io/blob/c25ba58964884405e465e6520148c66ea95e6669/Cata%20Presentacion.pdf)).
+
+
+ 
 
 
 ¡Estoy aquí para ayudarte a transformar tus datos en conocimiento valioso!
