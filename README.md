@@ -49,4 +49,7 @@ Si estás buscando una solución eficiente para analizar y automatizar tus datos
 - **Correo electrónico:** [m8antonioes@gmail.com](mailto:tuemail@ejemplo.com)
 - **LinkedIn:** [Miguel Espinoza Suarez](www.linkedin.com/in/miguelespinozasuarez)
 
+  [Descargar Carta de Presentación](https://github.com/usuario/repositorio/blob/main/nombre-del-archivo.pdf)
+
+
 ¡Estoy aquí para ayudarte a transformar tus datos en conocimiento valioso!
