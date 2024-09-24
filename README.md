@@ -1,58 +1,98 @@
-# 🚀 **Servicios Profesionales de Análisis de Datos**
+## Phantom for Jekyll
 
-## 👋 ¡Hola! Soy **Miguel**
+A minimalist, responsive portfolio theme for [Jekyll](http://jekyllrb.com/) with Bootstrap.
 
-Soy **Analista de Procesos y Datos** con más de **6 años de experiencia**, especializado en transformar datos en información valiosa que impulsa la toma de decisiones estratégicas. Mi experiencia abarca **Excel avanzado**, **Macros**, **Power BI**, **Power Apps** y **Power Automate**, proporcionando soluciones eficientes y personalizadas para empresas de diferentes sectores.
+![preview](preview.jpg)
 
----
+[See it in action](http://jamigibbs.github.io/phantom/).
 
-## 🛠 **Servicios Ofrecidos**
+## Fancy using it for your own site?
 
-### 1. **Análisis y Visualización de Datos**
-   - Desarrollo de dashboards interactivos en **Power BI** para el seguimiento de indicadores clave.
-   - Informes personalizados y análisis profundos usando **Excel** y **Power BI**.
-   - Automatización de reportes y gráficos en **Excel** con **Macros**.
+Here are some steps to get you started:
 
-### 2. **Automatización de Procesos**
-   - Creación de flujos automatizados utilizando **Power Automate** para mejorar la eficiencia de procesos repetitivos.
-   - Desarrollo de aplicaciones personalizadas con **Power Apps** para gestión de datos y operaciones.
+1. Clone this repo and cd into the directory:
 
-### 3. **Consultoría en Inteligencia de Negocios**
-   - Asesoría en la implementación de sistemas de **Business Intelligence**.
-   - Mejora continua de procesos con análisis predictivos y tendencias basadas en datos.
+  ```bash
+  git clone https://github.com/jamigibbs/phantom.git your-dir-name && cd your-dir-name
+  ```
 
----
+2. Run:
 
-## 🧑‍💻 **Portafolio**
+  ```bash
+  gem install bundler
+  bundle install
+  bundle exec jekyll serve
+  ```
 
-Aquí puedes ver algunos ejemplos de dashboards y proyectos que he desarrollado:
+  You may need to append your commands with `sudo` if you're getting a permissions error.
 
- - [Tablero de Ventas ](https://acortar.link/nPEyXJ) - **[Repositorio Github-Proyecto completo](https://github.com/maes12/AnalisisVentasSQLPowerBI)**
- - [Tablero de Ventas2 ](https://acortar.link/BIndbp) - **[Repositorio Github-Proyecto completo](https://github.com/maes12/Analyst-Sales.git)**
- - [Tablero Logístico ](https://acortar.link/RK8FlY)
+  _Don't have Jekyll yet? [Get `er installed then!](http://jekyllrb.com/docs/installation/)_
 
+3. Visit in your browser at:
 
-## 🎯 **¿Por qué Elegirme?**
+  `http://127.0.0.1:4000`
 
-- ✅ **Experiencia**: 6 años de experiencia en análisis de datos y optimización de procesos.
-- ✅ **Soluciones a medida**: Trabajo con las necesidades específicas de tu negocio para generar resultados.
-- ✅ **Automatización**: Mejora la eficiencia de tu equipo con soluciones automatizadas que reducen el trabajo manual.
-- ✅ **Visualización Clara**: Presentación clara y efectiva de datos para una toma de decisiones informada.
+## Launching with Github Pages :rocket:
 
+Jekyll + Github pages is a marriage made in heaven. You can [use your own custom domain name](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) or use the default Github url (ie. http://username.github.io/repository) and not bother messing around with DNS settings.
 
+## Theme Features
 
-## 📞 **Contacto : +51 933627400**
+### Navigation
 
-Si estás buscando una solución eficiente para analizar y automatizar tus datos, ¡no dudes en contactarme!
+Navigation can be customized in `_config.yml` under the `nav_item` key. Default settings:
 
-- **Correo electrónico:** [m8antonioes@gmail.com](mailto:tuemail@ejemplo.com)
-- **LinkedIn:** [Miguel Espinoza Suarez](www.linkedin.com/in/miguelespinozasuarez)
-## Carta de Presentación: 
+```yaml
+nav_item:
+    - { url: '/', text: 'Home' }
+    - { url: '/about', text: 'About' }
+```
 
- Aquí puedes [descargar la presentación en PDF]([https://github.com/usuario/repositorio/blob/main/presentacion.pdf](https://github.com/maes12/Mespinoza.gith.io/blob/c25ba58964884405e465e6520148c66ea95e6669/Cata%20Presentacion.pdf)).
+Set the `nav_enable` variable to false in `_config.yml` to disable navigation.
 
+### Contact Form
 
- 
+You can display a contact form within the modal window template. This template is already setup to use the [Formspree](https://formspree.io) email system. You'll just want to add your email address to the form in `/_includes/contact-modal.html`.
 
+Place the modal window template in any place you'd like the user to click for the contact form.
+The template will display a link to click for the contact form modal window:
 
-¡Estoy aquí para ayudarte a transformar tus datos en conocimiento valioso!
+```liquid
+{% include contact.html %}
+{% include contact-modal.html %}
+```
+
+### Animation Effects
+
+Animations with CSS classes are baked into the theme. To animate a section or element, simply add the animation classes:
+
+```html
+<div id="about-me" class="wow fadeIn">
+  I'm the coolest!
+</div>
+```
+
+For a complete list of animations, see the [animation list](http://daneden.github.io/animate.css/).
+
+### Pagination
+
+By default, pagination on the home page will activate after 10 posts. You can change this within `_config.yml`. You can add the pagination to other layouts with:
+
+```liquid
+  {% for post in paginator.posts %}
+    {% include post-content.html %}
+  {% endfor %}
+
+  {% include pagination.html %}
+```
+
+Read more about the [pagination plugin](http://jekyllrb.com/docs/pagination/).
+
+## Credit
+
+* Bootstrap, http://getbootstrap.com/, (C) 2011 - 2016 Twitter, Inc., [MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE)
+
+* Wow, https://github.com/matthieua/WOW, (C) 2014 - 2016 Matthieu Aussaguel
+, [GPL](https://github.com/matthieua/WOW#open-source-license)
+
+* Animate.css, https://github.com/daneden/animate.css, (C) 2016 Daniel Eden, [MIT](https://github.com/daneden/animate.css/blob/master/LICENSE)
